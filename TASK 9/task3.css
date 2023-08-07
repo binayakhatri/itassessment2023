@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .Work {
+    background-color: rgb(110, 144, 253);
+  }
+  
+  .buttons button {
+    margin-left: 0px;
+    padding: 8px;
+  }
+  
+  .header {
+    width: 100%;
+  }
+  
+  .logo-and-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  p {
+    text-align: right;
+  }
+  
+  h1 {
+    padding: 35px;
+    font-weight: 300;
+  }
+  
+  .contents {
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  .comapny-logo {
+    border: solid;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    background-color: white;
+    height: 240px;
+    width: 390px;
+  }
+  
+  .CEO1 {
+    text-align: left;
+  }
+  
+  .logo1 {
+    width: 100px;
+  }
+  
+  .details {
+    flex: 1;
+    padding: 0 20px;
+    text-align: right;
+  }
+  
+  .comapny-logo1 {
+    border: solid;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+    background-color: white;
+    height: 240px;
+    width: 390px;
+  }
+  
+  .logo2 {
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .CEO2 {
+    text-align: left;
+  }
+  

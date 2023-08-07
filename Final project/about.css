@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    .header{
+        min-height: 100vh;
+        width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/images.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+     nav img{
+        width: 150px;
+     }
+     .nav-links{
+        flex: 1;
+        text-align: right;
+     }
+     .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+     }
+     .nav-links ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+    
+     }
+     .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    
+     }
+     .nav-links ul li:hover::after{
+        width: 100%;
+     }
+     .portfolio-section {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 40px;
+    }
+    
+    .portfolio-section h1 {
+        font-size: 36px;
+        margin: 20px;
+        text-align: center;
+        color: #333;
+    }
+    
+    .weekly-tasks {
+        list-style: none;
+        margin-top: 30px;
+    }
+    
+    .weekly-tasks li {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .weekly-tasks li a {
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .weekly-tasks li a:hover {
+        color: #ffcc00;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 30px 0;
+        text-align: center;
+    }
+    
+    .footer-content {
+        max-width: 900px;
+        margin: auto;
+    }
+    
+    .footer-content p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .footer-links {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-links a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+    
